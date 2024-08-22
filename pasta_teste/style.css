@@ -1,0 +1,148 @@
+main{
+    height: 80vh;
+}
+
+ footer{
+    color: #08348c;
+    width: 100%;
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    letter-spacing: 1px; 
+
+}
+
+.footer_content{
+    background-color: #08348c;
+    color: #e8e8e8;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem, 5rem;
+
+}
+
+.footer_contatos h1{
+    margin-bottom: 0.75rem;
+}
+
+.footer_icons{
+    display: flex;
+    gap:2rem;
+    margin-top: 1.5rem;
+}
+
+.footer_icons .footer_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #08348c;
+    border-radius: 50%;
+    transition: all 0.4s;
+
+}
+
+.footer_icons .footer_link:hover{
+    opacity: 0.8;
+}
+
+.footer_icons .footer_link i{
+    font-size: 1.25rem;
+}
+
+.footer_list{
+    display: flex;
+    flex-direction: column ;
+    gap: 0.75rem;
+    list-style:none ;
+}
+
+.footer_list .footer_link{
+    color: #e8e8e8;
+    transition: all 0.4s
+}
+
+.footer_list .footer_link:hover{
+
+color:#000000
+}
+
+.footer_sub{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer_sub p{
+    color:#ffffff ;
+}
+
+#input_gp{
+    display: flex;
+    align-items:center;
+    background-color: #000000;
+    border-radius: 4px;
+}
+
+#input_gp input{
+    width: 100%;
+    padding: 0.75rem;
+    all: unset;
+}
+
+#input_gp button{
+    background-color: #25d366;
+    border:none ;
+    color: #ff2992;
+    padding: 0px 1.25rem ;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor:pointer;
+    transition: all 0.4s
+
+}
+
+#input_gp button:hover{
+    opacity: 0.8;
+}
+
+#footer_copy{
+    justify-content: center;
+    display: flex;
+    background-color: #e8e8e8;
+    font-size: 0.9rem;
+    padding:1.5rem;
+    font-weight: 100;
+
+}
+
+#insta{
+    background-color:  #ff2992;
+}
+
+#Contato{
+    background-color: #457ded;
+}
+#zap{
+    background-color: #25d366;
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer_content{
+        gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .footer_content{
+        padding:3rem 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
