@@ -1,15 +1,15 @@
 .logo img {
-    width: 150px; /* Largura da logo */
-    height: auto; /* Mantém a proporção da logo */
-    display: block; /* Remove espaços em torno da imagem */
+    width: 150px; 
+    height: auto; 
+    display: block; 
 }
 
 /* Estilo para a barra de navegação */
 .Cabeca {
     margin: auto;
-    width: 100%;
+    width:99% ;
     background-color:  #045cac;
-    padding: 15px;
+    padding:10px;
     overflow: hidden;
 }
 
@@ -26,7 +26,7 @@
     display: inline;
     padding: 5px;
     margin-right: 15px;
-    color: #ffffff; /* Cor do texto */
+    color: #ffffff; 
 }
 
 /* Estilo para hover nos itens do menu */
@@ -43,3 +43,97 @@
     padding: 2px;
     font-size: 30px;
 }
+
+
+.Corpo{
+ 
+   display: flex;
+}
+
+.Cursos{
+    padding: 10px 40px;
+}
+
+.imgCursos{
+    border-radius: 12px;
+    padding: 0;
+    overflow: hidden;
+    position:relative;
+}
+
+.imgCursos img{
+    width: 100%;
+    display: block;
+    transition: all 0.3s linear;
+}
+
+.imgCursos h4{
+    color:#e8e8e8;
+    font-size: 60px;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    position: absolute;   
+    bottom: 0; 
+    left:20px
+}
+
+.imgCursos:hover{
+    box-shadow: 0 0 8px #000000;
+}
+.imgCursos:hover img{
+    scale:1.1;
+    transition: all 0.3s linear;
+}
+
+
+
+/* footer{
+    color: #08348c;
+    width: 99%;
+}
+
+.footer_content{
+    background-color: #08348c;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem, 5rem;
+
+}
+
+.footer_contatos h1{
+    margin-bottom: 0.75rem;
+}
+
+.footer_icons{
+    display: flex;
+    gap:2rem;
+    margin-top: 1.5rem;
+}
+
+.footer_icons .footer_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #08348c;
+    border-radius: 50%;
+    transition: all 0.4s;
+
+}
+
+.footer_icons .footer_link:hover{
+    opacity: 0.8;
+}
+
+
+
+#Contato{
+    background-color: #08348c;
+}
+#zap{
+    background-color: #25d366;
+
+}
+ */
+
