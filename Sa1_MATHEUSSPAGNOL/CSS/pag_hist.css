@@ -1,6 +1,5 @@
 
 
-
 .Corpo {
     display: flex;
     justify-content: center;
@@ -16,6 +15,13 @@
     height: 100%;
     padding: 20px 0; /* Espaçamento opcional */
 }
+
+
+iframe{
+    width: 100Vh;
+    height:50Vh;
+}
+
 
 html, body {
     height: 100%;

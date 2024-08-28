@@ -18,6 +18,27 @@ div{
     color: azure;
     box-shadow: 0 0 10px #000000;
     padding: 80px;
+    
+}
+
+option{
+    padding: 15px;
+    border:none;
+    outline: none;
+    font-size: 15px;
+}
+
+option:hover{
+    box-shadow: 0 0 10px #ffffff;  
+    transition: all 0.4s;
+}
+
+
+label{
+    padding: 15px;
+    border:none;
+    outline: none;
+    font-size: 15px;
 }
 
 input{
@@ -29,8 +50,7 @@ input{
 }
 
 input:hover{
-    box-shadow: 0 0 10px #ffffff;
-   
+    box-shadow: 0 0 10px #ffffff;  
     transition: all 0.4s;
 }
 

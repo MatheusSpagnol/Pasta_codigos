@@ -34,7 +34,7 @@
     background-color:  #08348c;
     color: rgb(255, 247, 247);
     border-radius: 2rem;
-    cursor: crosshair;
+    cursor: none;
 }
 
 /* Estilo para a logo */
