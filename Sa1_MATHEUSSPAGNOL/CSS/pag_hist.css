@@ -1,9 +1,21 @@
-.logo img {
-    width: 150px; 
-    height: auto; 
-    display: block; 
-}
 
+
+
+.Corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 200px); /* Ajusta a altura mínima para centralizar verticalmente, subtraindo o espaço ocupado pelo header e footer */
+    padding: 20px; /* Ajuste conforme necessário */
+    box-sizing: border-box;
+}
+.video-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px 0; /* Espaçamento opcional */
+}
 
 html, body {
     height: 100%;
@@ -13,27 +25,33 @@ body {
     flex-direction: column;
 }
 
-.imgCursos{
-    border-radius: 12px;
-    width: 50%;
-    padding: 0;
-    overflow: hidden;
-    position:relative;
+
+.Cursos,.imgCursos{
+    display:flex;
+
 }
-.imgCursos img{
-    width: 100%;
-    border-radius: 12px;
-    display: block;
-    transition: all 0.3s linear;
-    margin-top: 50px;
-    padding-top: 60px;
+
+#curso-Text li{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 5px;
+    font-weight: 300;
+    font-weight: 700;
 }
 
 #curso-Text{
     font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    font-weight: 900;
+    font-size:20px ;
+    font-size-adjust: 2px;
+    font-weight: 1900;
+    background-color: #045cac;
+    width: 100%;
+    color:#e8e8e8 ;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-left: 9px;
+    border-radius: 12px;
 }
+
 
 
 
@@ -144,10 +162,7 @@ main{
     transition: all 0.4s
 }
 
-.footer_contatos h1{
 
-   
-}
 
 .footer_list .footer_link:hover{
 

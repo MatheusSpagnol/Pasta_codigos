@@ -45,9 +45,7 @@
 }
 
 
-.Corpo{
-    
-}
+
 main{
     height: 80vh;
     
@@ -60,21 +58,18 @@ main{
 
 .imgCursos{
     max-width:10px 40px;
-    
     width: 100%;
     padding: 0;
     overflow: hidden;
     position:relative;
 }
 
-    
-
 .imgCursos img{
     width: 100%;
     border-radius: 12px;
     display: grid;
-    margin-top: 200px;
-    padding-top: 2000px;
+    margin-top: 20px;
+    padding-top: 2px;
 
     
 }
@@ -93,12 +88,14 @@ main{
 .imgCursos h4:hover{
     color:#ffffff;
     text-shadow: 0 0 10px #000000;
+    border-radius: 12px;
 }
 
 .imgCursos:hover{
     box-shadow: 0 0 8px #000000;
     color:#ffffff;
-    text-shadow: 0 0 10px #ffffff
+    text-shadow: 0 0 10px #ffffff;
+    border-radius: 12px;
 }
 .imgCursos:hover img{
     scale:1.2;
@@ -130,7 +127,6 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem, 5rem;
-
 }
 
 .footer_contatos h1{
@@ -167,10 +163,6 @@ main{
     transition: all 0.4s
 }
 
-.footer_contatos h1{
-
-   
-}
 
 .footer_list .footer_link:hover{
 

@@ -1,9 +1,11 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    background: rgb(32,41,173);
-
+    background: #045cac;
+  
 }
+
+
 
 
 div{ 
@@ -47,5 +49,4 @@ button:hover{
     box-shadow: 0 0 10px #ffffff;
     cursor:unset;
 }
-
 
